@@ -1,0 +1,59 @@
+/* style.css */
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.card {
+    backdrop-filter: blur(10px);
+    background: rgba(255,255,255,0.95);
+    border: none;
+    border-radius: 12px;
+}
+
+.btn-primary {
+    background: #2c3e50;
+    border: none;
+    transition: all 0.3s;
+}
+.btn-primary:hover {
+    background: #1a252f;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(44,62,80,0.3);
+}
+
+.input-group-text {
+    background: #f8f9fa;
+    border-right: none;
+}
+.form-control {
+    border-left: none;
+}
+.form-control:focus {
+    box-shadow: none;
+    border-color: #2c3e50;
+}
+
+.navbar {
+    box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+}
+
+.card-header {
+    border-bottom: 2px solid #f1f3f5;
+}
+
+.table th {
+    font-weight: 600;
+    color: #495057;
+    border-top: none;
+}
+
+.badge {
+    padding: 0.5rem 0.75rem;
+    font-weight: 500;
+}
+
+.list-group-item {
+    border: none;
+    border-bottom: 1px solid #f1f3f5;
+}
